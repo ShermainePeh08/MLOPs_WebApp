@@ -8,7 +8,7 @@ import hydra
 from omegaconf import DictConfig
 
 
-@hydra.main(config_path="../config", config_name="main", version_base=None)
+@hydra.main(config_path="../config", config_name="main", version_base=None) # will access main.yaml in config folder
 def train_model(config: DictConfig):
     """Function to train the model"""
 

@@ -1,0 +1,27 @@
+
+data:
+  raw: ../../data/raw/01_hdb_resale_transactions.csv
+  ppath: ../../data/processed/
+
+setup:
+  target: resale_price
+  trainsize: 0.8
+  transform: True
+  norm: True
+  session: 123
+  logexp: True
+  expname: hdb
+  rmoutlier: True
+  fold: 10
+  ignore: 'block', 'latitude','longitude'
+  # ignore: 
+  #   - block
+  #   - latitude
+  #   - longitude
+  date: month
+  bin: postal_code
+  
+
+
+
+

@@ -9,6 +9,11 @@ defaults:
   - _self_
 
 data:
-  raw: data/raw/sample.csv
-  processed: data/processed/processed.csv
-  final: data/final/final.csv
+  raw: ${hydra:runtime.cwd}/../data/raw/sample.csv
+  processed: ${hydra:runtime.cwd}/../data/processed/processed.csv
+  final: ${hydra:runtime.cwd}/../data/final/final.csv
+
+data_RJ:
+  raw: ../data/raw/01_hdb_resale_transactions.csv
+  processed: ${hydra:runtime.cwd}/../data/processed/processed.csv
+  final: ${hydra:runtime.cwd}/../data/final/final.csv

@@ -1,0 +1,9 @@
+data:
+  proc: ../../data/processed/hdb.processed.csv
+  fpath: ../../data/final/
+
+modelparam:
+  name: Light Gradient Boosting Model Regressor
+  model: lightgbm
+  n_estimators:
+  max_depth:
