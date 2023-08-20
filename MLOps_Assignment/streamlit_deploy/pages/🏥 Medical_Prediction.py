@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from pycaret.classification import load_model, predict_model
+from pathlib import Path
+
 
 st.title('Medical Prediction')
 
@@ -10,7 +12,7 @@ def predict_quality(model, df):
     # print(predictions_data['prediction_label'])
     return predictions_data['prediction_label'][0]
     
-model = load_model('medical_pipeline')
+model = load_model(Path(__file__).parents[1] / 'medical_pipeline')
 
 def get_user_input():
     st.write("Please fill in the required information to get your prediction :D")
