@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/745b7a31a80a4dfca2fae743d2054a2c/artifacts
+end_time: 1692521543325
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 745b7a31a80a4dfca2fae743d2054a2c
+run_name: Random Forest Classifier
+run_uuid: 745b7a31a80a4dfca2fae743d2054a2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692521536797
+status: 3
+tags: []
+user_id: Shermaine

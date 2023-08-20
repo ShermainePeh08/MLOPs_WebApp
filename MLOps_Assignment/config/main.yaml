@@ -17,3 +17,8 @@ data_RJ:
   raw: ../data/raw/01_hdb_resale_transactions.csv
   processed: ${hydra:runtime.cwd}/../data/processed/processed.csv
   final: ${hydra:runtime.cwd}/../data/final/final.csv
+  
+data_Shermaine:
+  raw: ../data/raw/02_medical_records.csv
+  processed: ${hydra:runtime.cwd}/../data/processed/processed.csv
+  final: ${hydra:runtime.cwd}/../data/final/final.csv
