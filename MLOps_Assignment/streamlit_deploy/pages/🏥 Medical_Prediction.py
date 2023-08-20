@@ -1,15 +1,16 @@
 import streamlit as st
 import pandas as pd
-from streamlit_modal import Modal
+from pycaret.classification import load_model, predict_model
 
 st.title('Medical Prediction')
 
-# def predict_quality(model, df):
+def predict_quality(model, df):
     
-#     predictions_data = predict_model(estimator = model, data = df)
-#     return predictions_data['Label'][0]
+    predictions_data = predict_model(estimator = model, data = df)
+    # print(predictions_data['prediction_label'])
+    return predictions_data['prediction_label'][0]
     
-# model = load_model('extra_tree_model')
+model = load_model('medical_pipeline')
 
 def get_user_input():
     st.write("Please fill in the required information to get your prediction :D")
@@ -65,19 +66,17 @@ def get_user_input():
     }
 
     features_df = pd.DataFrame([user_input])
-    return features_df
+    # prediction = predict_quality(model, features_df)
+    # st.write(prediction)
+    return features_df, user_input
 
 
 
 if __name__ == "__main__":
-    user_input = get_user_input()
-    modal = Modal("Demo Modal", key = "demo")
-    open_modal = st.button("Predict!")
-    if open_modal:
-        modal.open()
-
-    if modal.is_open():
-        with modal.container():
-            st.table(user_input)  
-            prediction = "predict"
-            st.write(f'Based on feature values, your wine quality is {prediction}')
+    col1, col2, col3 = st.columns([3, 1, 2])
+    with col1:
+        df, user_input = get_user_input()
+    with col3:
+        prediction = predict_quality(model, df)
+        st.table(user_input)
+        st.write(f'Based on feature values, your wine quality is {prediction}')

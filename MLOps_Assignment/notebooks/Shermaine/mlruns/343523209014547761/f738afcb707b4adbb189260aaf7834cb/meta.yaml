@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/f738afcb707b4adbb189260aaf7834cb/artifacts
+end_time: 1692536419529
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: f738afcb707b4adbb189260aaf7834cb
+run_name: Gradient Boosting Classifier
+run_uuid: f738afcb707b4adbb189260aaf7834cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692536409757
+status: 3
+tags: []
+user_id: Shermaine
