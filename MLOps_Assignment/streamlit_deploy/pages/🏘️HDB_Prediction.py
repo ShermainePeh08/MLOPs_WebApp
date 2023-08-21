@@ -66,7 +66,10 @@ def get_user_input():
         "flat_model": flat_model,
         "lease_commence_date": lease_commence_date, 
         'cbd_dist': cbd_dist, 
-        'min_dist_mrt': min_dist_mrt
+        'min_dist_mrt': min_dist_mrt,
+        'block': 0, 
+        'latitude': 0,
+        'longitude': 0
     }
 
     features_df = pd.DataFrame([user_input])
@@ -81,4 +84,5 @@ if __name__ == "__main__":
     with col3:
         prediction = predict_hdb(model, df)
         st.subheader('Predicted Output')
-        st.write('The predicted price of your HDB is: $', prediction, 'SGD')
+        st.write(prediction)
+        # st.write('The predicted price of your HDB is: $', prediction, 'SGD')
