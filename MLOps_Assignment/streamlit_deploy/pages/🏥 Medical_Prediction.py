@@ -6,7 +6,7 @@ from pathlib import Path
 
 st.title('Medical Prediction')
 
-def predict_quality(model, df):
+def predict_disease(model, df):
     
     predictions_data = predict_model(estimator = model, data = df)
     # print(predictions_data['prediction_label'])
@@ -24,7 +24,7 @@ def get_user_input():
     gender = st.radio("Gender", ("M", "F"))
     
     # Fasting Blood Sugar
-    fasting_BS = st.radio("Fasting Blood Sugar", ("Y", "N"))
+    fasting_BS = st.radio("Fasting Blood Sugar (Normal less than 100mg/dL for non-diabetes and 100-125mg/dL for diabetes)", ("Y", "N"))
     
     # Exercise Induced Angina
     exercise_angina = st.radio("Exercise Induced Angina", ("No", "Yes"))
@@ -39,7 +39,7 @@ def get_user_input():
     old_peak = st.number_input("Old Peak", 0.0)
     
     # Maximum Heart Rate Achieved
-    max_HR = st.slider("Max Heart Rate Achieved", 60, 200)
+    max_HR = st.slider("Max Heart Rate Achieved", 60, 202)
     
     # Resting ECG
     resting_ECG_options = ["Normal", "LVH", "ST"]
@@ -79,6 +79,12 @@ if __name__ == "__main__":
     with col1:
         df, user_input = get_user_input()
     with col3:
-        prediction = predict_quality(model, df)
-        st.table(user_input)
-        st.write(f'Based on feature values, your wine quality is {prediction}')
+        prediction = predict_disease(model, df)
+        st.subheader('Predicted Output')
+        # st.table(user_input)
+        if prediction == 1:
+            st.markdown("<h1 style='color: red;'>‼️ OH NO ‼️</h1>", unsafe_allow_html=True)
+            st.write(f':red[Based on feature values, you are likely to have cardiovascular issues]')
+        if prediction == 0:
+            st.markdown("<h1 style='color: green;'>YAY 😀</h1>", unsafe_allow_html=True)
+            st.write(f':green[Based on feature values, you are normal. Unlikely to have cardiovascular issues]')

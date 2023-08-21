@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/d710b055318846d597789da81e373c52/artifacts
+end_time: 1692578306934
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: d710b055318846d597789da81e373c52
+run_name: Linear Discriminant Analysis
+run_uuid: d710b055318846d597789da81e373c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692578302421
+status: 3
+tags: []
+user_id: Shermaine

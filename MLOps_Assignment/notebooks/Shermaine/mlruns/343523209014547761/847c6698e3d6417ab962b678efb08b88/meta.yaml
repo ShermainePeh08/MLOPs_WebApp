@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/847c6698e3d6417ab962b678efb08b88/artifacts
+deleted_time: 1692546493251
 end_time: 1692538553068
 entry_point_name: ''
 experiment_id: '343523209014547761'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 847c6698e3d6417ab962b678efb08b88
 run_name: bold-flea-599
 run_uuid: 847c6698e3d6417ab962b678efb08b88

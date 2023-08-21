@@ -1,9 +1,16 @@
 import streamlit as st
 
-st.set_page_config(page_title="MLOps Assignment", page_icon=":shark:", layout="wide")
+st.set_page_config(page_title="MLOps Assignment", page_icon="🐸", layout="wide")
 st.title("MLOps Assignment")
 st.sidebar.success("Select your desired prediction above 👀")
-st.subheader("Welcome to RuiJie's and Shermaine's MLOps Assignment! :D")
-st.write("Please select the prediction you would like to get first")
-# st.button("HDB Prediction")
-st.write("Alternatively, you can select the prediction you want from the sidebar on the left :)")
+st.subheader("Welcome to RuiJie and Shermaine's MLOps Assignment! :D")
+st.write("Please select the prediction you would like to get first:")
+st.markdown(
+    '<a href="/Medical_Prediction" target="_self" style="text-decoration: none; font-size: 20px;">Medical Prediction</a>', 
+    unsafe_allow_html=True
+)
+st.markdown(
+    '<a href="/HDB_Prediction" target="_self" style="text-decoration: none; font-size: 20px;">HDB Prediction</a>', 
+    unsafe_allow_html=True
+)
+st.write("Alternatively, you can select the pages you want to go to from the sidebar on the left :)")
