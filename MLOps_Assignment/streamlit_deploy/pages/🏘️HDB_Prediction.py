@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pycaret.regression import load_model as load_model_regression, predict_model as predict_model_regression
+from pycaret.classification import load_model as load_model_regression, predict_model as predict_model_regression
 from pathlib import Path
 
 st.title('HDB Prediction')
