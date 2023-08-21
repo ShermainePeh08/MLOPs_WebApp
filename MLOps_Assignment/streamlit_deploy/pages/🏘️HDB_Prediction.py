@@ -1,17 +1,17 @@
 import streamlit as st
 import pandas as pd
-from pycaret.classification import load_model, predict_model
+from pycaret.regression import load_model as load_model_regression, predict_model as predict_model_regression
 from pathlib import Path
 
 st.title('HDB Prediction')
 
 def predict_hdb(model, df):
     
-    predictions_data = predict_model(estimator = model, data = df)
+    predictions_data = predict_model_regression(estimator = model, data = df)
     print(predictions_data.dtypes)
     return predictions_data['prediction_label'][0]
     
-hdb_model = load_model(Path(__file__).parents[1] / 'hdb_pipeline')
+hdb_model = load_model_regression(Path(__file__).parents[1] / 'hdb_pipeline')
 
 def get_user_input():
     st.write("Please fill in the required information to get your prediction :D")
