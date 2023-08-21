@@ -7,12 +7,13 @@ st.title('HDB Prediction')
     
 # hdb_model = load_model_regression(Path(__file__).parents[1] / 'hdb_pipeline_final')
 
-def predict_hdb(model, df):
+# def predict_hdb(model, df):
     
-    predictions_data = predict_model_regression(estimator = model, data = df)
-    return predictions_data['prediction_label']
+#     predictions_data = predict_model_regression(estimator = model, data = df)
+    # return predictions_data['prediction_label']
     
-hdb_model = load_model_regression('C:\Github\MLOPs_WebApp\MLOps_Assignment\models\hdb_pipeline_final.pkl')
+# hdb_model = load_model_regression(Path(__file__).parents[2] / 'models' / 'hdb_pipeline_final')
+
 
 def get_user_input():
     st.write("Please fill in the required information to get your prediction :D")
@@ -73,7 +74,7 @@ def get_user_input():
     }
 
     features_df = pd.DataFrame([user_input])
-    features_df['month'] = pd.to_datetime(features_df['month']).dt.strftime('%Y-%m')
+    features_df['month'] = pd.to_datetime(features_df['month'], format='%Y-%m').dt.date
     
     return features_df, user_input
 
@@ -84,7 +85,7 @@ if __name__ == "__main__":
         df, user_input = get_user_input()
         st.table(df)
     with col3:
-        prediction = predict_hdb(hdb_model, df)
+        # prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
-        st.write(prediction)
+        # st.write(prediction)
         # st.write('The predicted price of your HDB is: $', prediction, 'SGD')

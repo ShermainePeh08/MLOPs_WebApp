@@ -83,7 +83,7 @@ if __name__ == "__main__":
         st.subheader('Predicted Output')
         # st.table(user_input)
         if prediction == 1:
-            st.markdown("<h1 style='color: red;'>‼️ OH NO ‼️</h1>", unsafe_allow_html=True)
+            st.markdown("<h1 style='color: red; position: sticky;'>‼️ OH NO ‼️</h1>", unsafe_allow_html=True)
             st.write(f':red[Based on feature values, you are likely to have cardiovascular issues]')
         if prediction == 0:
             st.markdown("<h1 style='color: green;'>YAY 😀</h1>", unsafe_allow_html=True)
