@@ -4,20 +4,15 @@ from pycaret.regression import load_model as load_model_regression, predict_mode
 from pathlib import Path
 
 st.title('HDB Prediction')
-
-# def predict_hdb(model, df):
     
-#     predictions_data = predict_model_regression(estimator = model, data = df)
-#     return predictions_data['prediction_label']
-    
-# hdb_model = load_model_regression('C:\Github\MLOPs_WebApp\MLOps_Assignment\models\hdb_pipeline_final.pkl')
+# hdb_model = load_model_regression(Path(__file__).parents[1] / 'hdb_pipeline_final')
 
 def predict_hdb(model, df):
     
-    predictions_data = predict_model(estimator = model, data = df)
+    predictions_data = predict_model_regression(estimator = model, data = df)
     return predictions_data['prediction_label']
     
-hdb_model = load_model('C:\Github\MLOPs_WebApp\MLOps_Assignment\models\hdb_pipeline_final.pkl')
+hdb_model = load_model_regression('C:\Github\MLOPs_WebApp\MLOps_Assignment\models\hdb_pipeline_final.pkl')
 
 def get_user_input():
     st.write("Please fill in the required information to get your prediction :D")
