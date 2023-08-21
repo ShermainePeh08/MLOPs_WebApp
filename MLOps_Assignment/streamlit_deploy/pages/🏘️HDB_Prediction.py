@@ -7,12 +7,12 @@ st.title('HDB Prediction')
     
 # hdb_model = load_model_regression(Path(__file__).parents[1] / 'hdb_pipeline_final')
 
-# def predict_hdb(model, df):
+def predict_hdb(model, df):
     
-#     predictions_data = predict_model_regression(estimator = model, data = df)
-    # return predictions_data['prediction_label']
+    predictions_data = predict_model_regression(estimator = model, data = df)
+    return predictions_data['prediction_label'][0]
     
-# hdb_model = load_model_regression(Path(__file__).parents[2] / 'models' / 'hdb_pipeline_final')
+hdb_model = load_model_regression(Path(__file__).parents[2] / 'models' / 'hdb_pipeline_final3')
 
 
 def get_user_input():
@@ -69,12 +69,10 @@ def get_user_input():
         "lease_commence_date": int(lease_commence_date), 
         'cbd_dist': cbd_dist, 
         'min_dist_mrt': min_dist_mrt,
-        'latitude': 0,
-        'longitude': 0,
     }
 
     features_df = pd.DataFrame([user_input])
-    features_df['month'] = pd.to_datetime(features_df['month'], format='%Y-%m').dt.date
+    features_df['month'] = pd.to_datetime(features_df['month'], format='%Y-%m')
     
     return features_df, user_input
 
@@ -85,7 +83,7 @@ if __name__ == "__main__":
         df, user_input = get_user_input()
         st.table(df)
     with col3:
-        # prediction = predict_hdb(hdb_model, df)
+        prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
         # st.write(prediction)
-        # st.write('The predicted price of your HDB is: $', prediction, 'SGD')
+        st.write('The predicted price of your HDB is: $', prediction, 'SGD')
