@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/962509762797500726/ec0c8221ebf04bfc8299895e873c37cc/artifacts
+end_time: 1692630184178
+entry_point_name: ''
+experiment_id: '962509762797500726'
+lifecycle_stage: active
+run_id: ec0c8221ebf04bfc8299895e873c37cc
+run_name: Least Angle Regression
+run_uuid: ec0c8221ebf04bfc8299895e873c37cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692630179584
+status: 3
+tags: []
+user_id: Shermaine

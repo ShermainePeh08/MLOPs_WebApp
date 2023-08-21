@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/962509762797500726/73e733e484884c39aa0dea226618b7ee/artifacts
+end_time: 1692630141373
+entry_point_name: ''
+experiment_id: '962509762797500726'
+lifecycle_stage: active
+run_id: 73e733e484884c39aa0dea226618b7ee
+run_name: Extra Trees Regressor
+run_uuid: 73e733e484884c39aa0dea226618b7ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692630138258
+status: 3
+tags: []
+user_id: Shermaine

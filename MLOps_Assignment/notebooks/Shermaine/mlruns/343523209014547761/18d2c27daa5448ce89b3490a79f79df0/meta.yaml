@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/18d2c27daa5448ce89b3490a79f79df0/artifacts
+end_time: 1692629359558
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 18d2c27daa5448ce89b3490a79f79df0
+run_name: Decision Tree Classifier
+run_uuid: 18d2c27daa5448ce89b3490a79f79df0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692629349047
+status: 3
+tags: []
+user_id: Shermaine

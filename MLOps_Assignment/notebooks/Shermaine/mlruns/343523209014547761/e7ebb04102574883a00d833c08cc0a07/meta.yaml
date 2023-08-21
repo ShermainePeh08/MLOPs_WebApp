@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/e7ebb04102574883a00d833c08cc0a07/artifacts
+end_time: 1692631410360
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: e7ebb04102574883a00d833c08cc0a07
+run_name: Naive Bayes
+run_uuid: e7ebb04102574883a00d833c08cc0a07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692631407471
+status: 3
+tags: []
+user_id: Shermaine

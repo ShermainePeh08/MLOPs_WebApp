@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/6c2e602ef2cd40179ffb6dd01dba7b35/artifacts
+end_time: 1692630550111
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 6c2e602ef2cd40179ffb6dd01dba7b35
+run_name: Light Gradient Boosting Machine
+run_uuid: 6c2e602ef2cd40179ffb6dd01dba7b35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692630547580
+status: 3
+tags: []
+user_id: Shermaine

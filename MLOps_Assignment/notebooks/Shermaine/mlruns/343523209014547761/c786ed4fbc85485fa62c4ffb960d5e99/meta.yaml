@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/c786ed4fbc85485fa62c4ffb960d5e99/artifacts
+end_time: 1692629767204
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: c786ed4fbc85485fa62c4ffb960d5e99
+run_name: Session Initialized 2202
+run_uuid: c786ed4fbc85485fa62c4ffb960d5e99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692629728934
+status: 3
+tags: []
+user_id: Shermaine

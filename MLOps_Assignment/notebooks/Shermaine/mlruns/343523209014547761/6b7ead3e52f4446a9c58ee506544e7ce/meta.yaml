@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/6b7ead3e52f4446a9c58ee506544e7ce/artifacts
+end_time: 1692630571920
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 6b7ead3e52f4446a9c58ee506544e7ce
+run_name: Ada Boost Classifier
+run_uuid: 6b7ead3e52f4446a9c58ee506544e7ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692630569653
+status: 3
+tags: []
+user_id: Shermaine

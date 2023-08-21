@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/20b622320c694851887e2cfd206b2315/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 20b622320c694851887e2cfd206b2315
+run_name: Dummy Classifier
+run_uuid: 20b622320c694851887e2cfd206b2315
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692629371074
+status: 1
+tags: []
+user_id: Shermaine
