@@ -1,4 +1,5 @@
 # MLOps WebApp
+View our web application here!: https://srj-mlops.streamlit.app/ 
 
 Objective: Build an end to end Maching Learning system using Pycaret and Deploy it.
 
@@ -22,7 +23,7 @@ cookiecutter {link} --checkout dvc-poetry
 ```
 ## MLOPs Lifecycle
 ### DVC
-- Data Version Control was used on the data and mlruns folder to manage and version data and experiments.
+- Data Version Control was used on the data folder to manage and version data.
     - To initialize dvc run
         ```bash 
         dvc init
@@ -62,6 +63,94 @@ https://streamlit.io/cloud
 	```bash
     pip freeze > requirements.txt
     ```
+## Folder Structure
+```
+MLOPS_WEBAPP:
+    .dvcignore
+    .gitignore
+    README.md
+    MLOps_Assignment
+    │   .gitignore
+    │   .pre-commit-config.yaml
+    │   data.dvc
+    │   Makefile
+    │   poetry.lock
+    │   pyproject.toml
+    │   README.md
+    │
+    ├───.dvc
+    │       .gitignore
+    │       config
+    │
+    ├───streamlit_deploy
+    │   │   Homepage.py
+    │   │   requirements.txt
+    │   │
+    │   ├───pages
+    │          HDB_Prediction.py
+    │          Medical_Prediction.py
+    |
+    ├───config
+    │   │   main.yaml
+    │   │
+    │   ├───model
+    │   │       model1.yaml
+    │   │       model2.yaml
+    │   │
+    │   └───process
+    │           process_RJ.yaml
+    │           process_Shermaine.yaml
+    │
+    ├───data
+    │   │   
+    │   │
+    │   ├───final
+    │   │       .gitkeep
+    │   │
+    │   ├───processed
+    │   │       .gitkeep
+    |   |       hdb_processed.csv
+    |   |       medical_processed.csv
+    │   │
+    │   └───raw
+    │           .gitkeep
+    │           01_hdb_resale_transactions.csv
+    │           02_medical_records.csv
+    │
+    ├───docs
+    │       .gitkeep
+    │
+    ├───models
+    │       .gitkeep
+    │       best_gbr__pipeline.pkl
+    │       cv_issue-pipeline.pkl
+    │       cv_issue-pipeline_testing.pkl
+    │       resale_price_pipeline_zx.pkl
+    │
+    ├───notebooks
+    │   │   .gitkeep
+    │   │
+    │   ├───RuiJie
+    │   │       hdb_Hydra.ipynb
+    │   │       hdb_RJ.ipynb
+    |   |       mlruns
+    |   |       logs.log
+    │   │
+    │   └───Shermaine
+    │           logs.log
+    │           medical-hydra.ipynb
+    │           medical.ipynb
+    │
+    ├───src
+    │       process.py
+    │       train_model.py
+    │       __init__.py
+    │
+    └───tests
+            test_process.py
+            test_train_model.py
+            __init__.py
+```
 ## Roles:
 - Shermaine: Medical Cardiovascular Health
 - RuiJie: HDB Resale Price

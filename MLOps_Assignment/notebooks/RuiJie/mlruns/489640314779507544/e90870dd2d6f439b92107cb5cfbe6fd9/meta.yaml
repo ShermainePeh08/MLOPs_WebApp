@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/e90870dd2d6f439b92107cb5cfbe6fd9/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '489640314779507544'
+lifecycle_stage: active
+run_id: e90870dd2d6f439b92107cb5cfbe6fd9
+run_name: Session Initialized a2b6
+run_uuid: e90870dd2d6f439b92107cb5cfbe6fd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692621425012
+status: 1
+tags: []
+user_id: ruiji
