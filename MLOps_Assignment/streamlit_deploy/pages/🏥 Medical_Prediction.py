@@ -12,7 +12,7 @@ def predict_disease(model, df):
     # print(predictions_data['prediction_label'])
     return predictions_data['prediction_label'][0]
 
-hdb_model = load_model(Path(__file__).parents[2] / 'models' / 'medical_pipeline')
+model = load_model(Path(__file__).parents[2] / 'models' / 'medical_pipeline')
 
 # model = load_model(Path(__file__).parents[1] / 'medical_pipeline')
 
