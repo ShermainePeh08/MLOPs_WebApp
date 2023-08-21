@@ -8,7 +8,7 @@ st.title('HDB Prediction')
 def predict_hdb(model, df):
     
     predictions_data = predict_model_regression(estimator = model, data = df)
-    return predictions_data['prediction_label'][0]
+    return predictions_data['prediction_label']
     
 hdb_model = load_model_regression(Path(__file__).parents[1] / 'hdb_pipeline')
 
