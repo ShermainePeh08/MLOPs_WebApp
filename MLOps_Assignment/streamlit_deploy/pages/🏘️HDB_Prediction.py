@@ -12,7 +12,7 @@ def predict_hdb(model, df):
     predictions_data = predict_model_regression(estimator = model, data = df)
     return predictions_data['prediction_label'][0]
     
-hdb_model = load_model_regression(Path(__file__).parents[2] / 'models' / 'hdb_pipeline_final3')
+hdb_model = load_model_regression(Path(__file__).parents[2] / 'models' / 'hdb_pipeline_mod')
 
 
 def get_user_input():
@@ -86,4 +86,6 @@ if __name__ == "__main__":
         prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
         st.markdown("<h1 style='color: green;'>🤑💸</h1>", unsafe_allow_html=True)
-        st.write('The predicted price of your HDB rounded to nearest thousands is: $'+ str(round(prediction, -3)))
+        st.write('The predicted price of your HDB rounded to nearest thousands is:')
+        output = str(round(prediction, -3))
+        st.write(f"<h1 style='color: green;'>${output}</h1>", unsafe_allow_html=True)
