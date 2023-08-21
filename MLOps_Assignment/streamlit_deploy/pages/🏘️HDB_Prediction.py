@@ -11,7 +11,7 @@ def predict_hdb(model, df):
     print(predictions_data.dtypes)
     return predictions_data['prediction_label'][0]
     
-model = load_model(Path(__file__).parents[1] / 'hdb_pipeline')
+hdb_model = load_model(Path(__file__).parents[1] / 'hdb_pipeline')
 
 def get_user_input():
     st.write("Please fill in the required information to get your prediction :D")
@@ -67,9 +67,6 @@ def get_user_input():
         "lease_commence_date": lease_commence_date, 
         'cbd_dist': cbd_dist, 
         'min_dist_mrt': min_dist_mrt,
-        'block': 0, 
-        'latitude': 0,
-        'longitude': 0
     }
 
     features_df = pd.DataFrame([user_input])
@@ -82,7 +79,7 @@ if __name__ == "__main__":
     with col1:
         df, user_input = get_user_input()
     with col3:
-        prediction = predict_hdb(model, df)
+        prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
         st.write(prediction)
         # st.write('The predicted price of your HDB is: $', prediction, 'SGD')
