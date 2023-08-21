@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/2cbfae58cac94394b5e25bd5f379b6ad/artifacts
+end_time: 1692606384251
+entry_point_name: ''
+experiment_id: '489640314779507544'
+lifecycle_stage: active
+run_id: 2cbfae58cac94394b5e25bd5f379b6ad
+run_name: Lasso Regression
+run_uuid: 2cbfae58cac94394b5e25bd5f379b6ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692606383370
+status: 3
+tags: []
+user_id: ruiji

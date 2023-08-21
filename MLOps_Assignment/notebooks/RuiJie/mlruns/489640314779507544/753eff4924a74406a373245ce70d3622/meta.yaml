@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/753eff4924a74406a373245ce70d3622/artifacts
+end_time: 1692606386177
+entry_point_name: ''
+experiment_id: '489640314779507544'
+lifecycle_stage: active
+run_id: 753eff4924a74406a373245ce70d3622
+run_name: Huber Regressor
+run_uuid: 753eff4924a74406a373245ce70d3622
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692606385388
+status: 3
+tags: []
+user_id: ruiji

@@ -1,0 +1,19 @@
+data:
+  raw: ../../data/raw/02_medical_records.csv
+  ppath: ../../data/processed/
+
+setup:
+  target: cv_issue
+  trainsize: 0.8
+  norm: True
+  norm_mtd: minmax
+  session: 123
+  logexp: True
+  expname: medical
+  rmoutlier: True
+  fold: 10
+  bin: 
+      - age
+      - max_HR
+  
+

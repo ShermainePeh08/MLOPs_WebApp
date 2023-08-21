@@ -1,4 +1,3 @@
-
 data:
   raw: ../../data/raw/01_hdb_resale_transactions.csv
   ppath: ../../data/processed/
@@ -10,18 +9,14 @@ setup:
   norm: True
   session: 123
   logexp: True
-  expname: hdb
+  expname: hdb_experiment
   rmoutlier: True
   fold: 10
-  ignore: 'block', 'latitude','longitude'
-  # ignore: 
-  #   - block
-  #   - latitude
-  #   - longitude
   date: month
   bin: postal_code
-  
-
-
-
+  sample: 0.6            # will sample to half the datasize to make models run faster so jupyter wont crash
+  ignore: 
+    - block
+    - latitude
+    - longitude
 
