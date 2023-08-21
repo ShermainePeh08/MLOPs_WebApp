@@ -17,8 +17,8 @@ Tasks:
 - DVC: Data Version Control 
 
 ## Cookiecutter Setup
-pip install cookiecutter
 ```bash
+pip install cookiecutter
 cookiecutter {link} --checkout dvc-poetry
 ```
 ## MLOPs Lifecycle
