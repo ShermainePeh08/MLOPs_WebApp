@@ -58,7 +58,7 @@ def get_user_input():
         "street_name": street_name,
         "town": town,
         "postal_code": postal_code,
-        "month": month.strftime('%Y-%m'),
+        "month": month,
         "flat_type": flat_type,
         "storey_range": storey_range,
         "floor_area_sqm": floor_area_sqm,
@@ -66,10 +66,13 @@ def get_user_input():
         "lease_commence_date": int(lease_commence_date), 
         'cbd_dist': cbd_dist, 
         'min_dist_mrt': min_dist_mrt,
+        'latitude': 0,
+        'longitude': 0,
     }
 
     features_df = pd.DataFrame([user_input])
-    features_df['month'] = pd.to_datetime(features_df['month'])
+    features_df['month'] = pd.to_datetime(features_df['month']).dt.strftime('%Y-%m')
+    
     return features_df, user_input
 
 
@@ -77,6 +80,7 @@ if __name__ == "__main__":
     col1, col2, col3 = st.columns([3, 1, 2])
     with col1:
         df, user_input = get_user_input()
+        st.table(df)
     with col3:
         prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
