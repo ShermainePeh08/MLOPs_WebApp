@@ -81,7 +81,7 @@ if __name__ == "__main__":
     col1, col2, col3 = st.columns([3, 1, 2])
     with col1:
         df, user_input = get_user_input()
-        st.table(df)
+        # st.table(df)
     with col3:
         prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
