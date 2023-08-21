@@ -8,7 +8,7 @@ st.title('HDB Prediction')
 def predict_hdb(model, df):
     
     predictions_data = predict_model(estimator = model, data = df)
-    # print(predictions_data['prediction_label'])
+    print(predictions_data.dtypes)
     return predictions_data['prediction_label'][0]
     
 model = load_model(Path(__file__).parents[1] / 'hdb_pipeline')
@@ -59,7 +59,7 @@ def get_user_input():
         "street_name": street_name,
         "town": town,
         "postal_code": postal_code,
-        "month": str(month.strftime('%Y-%m')),
+        "month": month.strftime('%Y-%m'),
         "flat_type": flat_type,
         "storey_range": storey_range,
         "floor_area_sqm": floor_area_sqm,
@@ -70,6 +70,7 @@ def get_user_input():
     }
 
     features_df = pd.DataFrame([user_input])
+    features_df['month'] = pd.to_datetime(features_df['month'])
     return features_df, user_input
 
 
