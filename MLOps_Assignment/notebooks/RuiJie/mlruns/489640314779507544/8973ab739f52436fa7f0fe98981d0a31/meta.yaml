@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/8973ab739f52436fa7f0fe98981d0a31/artifacts
+end_time: 1692606390494
+entry_point_name: ''
+experiment_id: '489640314779507544'
+lifecycle_stage: active
+run_id: 8973ab739f52436fa7f0fe98981d0a31
+run_name: Dummy Regressor
+run_uuid: 8973ab739f52436fa7f0fe98981d0a31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692606389791
+status: 3
+tags: []
+user_id: ruiji

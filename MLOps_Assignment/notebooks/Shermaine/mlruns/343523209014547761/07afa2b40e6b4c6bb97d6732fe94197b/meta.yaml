@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/07afa2b40e6b4c6bb97d6732fe94197b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 07afa2b40e6b4c6bb97d6732fe94197b
+run_name: Session Initialized 87de
+run_uuid: 07afa2b40e6b4c6bb97d6732fe94197b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692613695307
+status: 1
+tags: []
+user_id: ruiji

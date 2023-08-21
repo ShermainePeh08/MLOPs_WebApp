@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/560795023954885856/3d530071178d440795ddf6c7d8309317/artifacts
+end_time: 1692611185431
+entry_point_name: ''
+experiment_id: '560795023954885856'
+lifecycle_stage: active
+run_id: 3d530071178d440795ddf6c7d8309317
+run_name: Ridge Regression
+run_uuid: 3d530071178d440795ddf6c7d8309317
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692611182133
+status: 3
+tags: []
+user_id: ruiji

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/560795023954885856/392d330bda654145b73687c87778fabe/artifacts
+end_time: 1692611216943
+entry_point_name: ''
+experiment_id: '560795023954885856'
+lifecycle_stage: active
+run_id: 392d330bda654145b73687c87778fabe
+run_name: AdaBoost Regressor
+run_uuid: 392d330bda654145b73687c87778fabe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692611213469
+status: 3
+tags: []
+user_id: ruiji

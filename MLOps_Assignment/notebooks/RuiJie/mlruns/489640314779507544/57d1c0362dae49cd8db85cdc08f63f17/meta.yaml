@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/57d1c0362dae49cd8db85cdc08f63f17/artifacts
+end_time: 1692606387092
+entry_point_name: ''
+experiment_id: '489640314779507544'
+lifecycle_stage: active
+run_id: 57d1c0362dae49cd8db85cdc08f63f17
+run_name: Passive Aggressive Regressor
+run_uuid: 57d1c0362dae49cd8db85cdc08f63f17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692606386310
+status: 3
+tags: []
+user_id: ruiji

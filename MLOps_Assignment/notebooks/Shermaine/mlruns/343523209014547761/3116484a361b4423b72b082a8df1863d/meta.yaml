@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/3116484a361b4423b72b082a8df1863d/artifacts
+end_time: 1692611640317
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 3116484a361b4423b72b082a8df1863d
+run_name: Random Forest Regressor
+run_uuid: 3116484a361b4423b72b082a8df1863d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692611637152
+status: 3
+tags: []
+user_id: ruiji
