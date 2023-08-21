@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/560795023954885856/e2e2ef902f114be2bd0af2f743786853/artifacts
+end_time: 1692611213278
+entry_point_name: ''
+experiment_id: '560795023954885856'
+lifecycle_stage: active
+run_id: e2e2ef902f114be2bd0af2f743786853
+run_name: Orthogonal Matching Pursuit
+run_uuid: e2e2ef902f114be2bd0af2f743786853
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692611209741
+status: 3
+tags: []
+user_id: ruiji

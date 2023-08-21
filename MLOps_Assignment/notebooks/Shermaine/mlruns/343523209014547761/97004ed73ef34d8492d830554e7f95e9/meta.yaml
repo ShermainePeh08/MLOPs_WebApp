@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/97004ed73ef34d8492d830554e7f95e9/artifacts
+end_time: 1692612205467
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 97004ed73ef34d8492d830554e7f95e9
+run_name: Ridge Classifier
+run_uuid: 97004ed73ef34d8492d830554e7f95e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692612203994
+status: 3
+tags: []
+user_id: ruiji

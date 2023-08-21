@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/a76ce9967ec04cc1a56d45b354cdd3f7/artifacts
+end_time: 1692611636952
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: a76ce9967ec04cc1a56d45b354cdd3f7
+run_name: Linear Regression
+run_uuid: a76ce9967ec04cc1a56d45b354cdd3f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692611634507
+status: 3
+tags: []
+user_id: ruiji

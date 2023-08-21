@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/6b963475e69240e9b874563674f7254f/artifacts
+end_time: 1692611655345
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: 6b963475e69240e9b874563674f7254f
+run_name: Decision Tree Regressor
+run_uuid: 6b963475e69240e9b874563674f7254f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692611653141
+status: 3
+tags: []
+user_id: ruiji
