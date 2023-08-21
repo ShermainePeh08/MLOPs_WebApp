@@ -1,7 +1,12 @@
 # MLOps WebApp
-View our web application here!: https://srj-mlops.streamlit.app/ 
+View our web application here!<br>
+https://srj-mlops.streamlit.app/ 
+
+![Webpage Demo](MLOps_Short_Demo.gif)<br><br>
+
 
 Objective: Build an end to end Maching Learning system using Pycaret and Deploy it.
+- Live Prediction of data as input changes
 
 Tasks:
 1. Train, Validate & Develop Machine Learning Pipeline using Pycaret
@@ -21,7 +26,7 @@ Tasks:
 pip install cookiecutter
 cookiecutter {link} --checkout dvc-poetry
 ```
-## MLOPs Lifecycle
+## MLOps Lifecycle
 ### DVC
 - Data Version Control was used on the data folder to manage and version data.
     - To initialize dvc run
