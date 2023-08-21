@@ -55,6 +55,7 @@ def get_user_input():
     cbd_dist = st.number_input("Distance from CBD (m)", 10000)
     min_dist_mrt = st.number_input("Minimum Distance from MRT (m)", 10000)
     
+    month = pd.to_datetime(month)
     user_input = {
         "street_name": street_name,
         "town": town,

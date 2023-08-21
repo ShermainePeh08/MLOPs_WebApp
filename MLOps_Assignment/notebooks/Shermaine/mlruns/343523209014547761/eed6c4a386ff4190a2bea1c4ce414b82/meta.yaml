@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/343523209014547761/eed6c4a386ff4190a2bea1c4ce414b82/artifacts
+end_time: 1692581206897
+entry_point_name: ''
+experiment_id: '343523209014547761'
+lifecycle_stage: active
+run_id: eed6c4a386ff4190a2bea1c4ce414b82
+run_name: Extra Trees Classifier
+run_uuid: eed6c4a386ff4190a2bea1c4ce414b82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692581202040
+status: 3
+tags: []
+user_id: Shermaine
