@@ -8,7 +8,6 @@ st.title('HDB Prediction')
 def predict_hdb(model, df):
     
     predictions_data = predict_model_regression(estimator = model, data = df)
-    print(predictions_data.dtypes)
     return predictions_data['prediction_label'][0]
     
 hdb_model = load_model_regression(Path(__file__).parents[1] / 'hdb_pipeline')
@@ -64,7 +63,7 @@ def get_user_input():
         "storey_range": storey_range,
         "floor_area_sqm": floor_area_sqm,
         "flat_model": flat_model,
-        "lease_commence_date": lease_commence_date, 
+        "lease_commence_date": int(lease_commence_date), 
         'cbd_dist': cbd_dist, 
         'min_dist_mrt': min_dist_mrt,
     }
