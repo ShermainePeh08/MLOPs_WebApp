@@ -1,4 +1,7 @@
-pycaret
+pycaret==3.0.4
 streamlit
 pandas
 numpy
+dvc
+hydra-core
+scikit-learn

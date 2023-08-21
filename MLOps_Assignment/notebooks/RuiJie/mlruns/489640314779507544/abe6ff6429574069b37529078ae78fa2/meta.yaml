@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/abe6ff6429574069b37529078ae78fa2/artifacts
+end_time: 1692614996854
+entry_point_name: ''
+experiment_id: '489640314779507544'
+lifecycle_stage: active
+run_id: abe6ff6429574069b37529078ae78fa2
+run_name: Gradient Boosting Regressor
+run_uuid: abe6ff6429574069b37529078ae78fa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692614995416
+status: 3
+tags: []
+user_id: Shermaine

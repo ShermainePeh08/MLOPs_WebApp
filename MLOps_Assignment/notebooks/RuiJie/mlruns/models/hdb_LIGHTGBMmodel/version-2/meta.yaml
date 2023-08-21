@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1692615410376
+current_stage: None
+description: null
+last_updated_timestamp: 1692615410376
+name: hdb_LIGHTGBMmodel
+run_id: a6090771fb2d4776aa1c846de2e7b344
+run_link: null
+source: file:///C:/Github/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/489640314779507544/a6090771fb2d4776aa1c846de2e7b344/artifacts/sk_model
+status: READY
+status_message: null
+user_id: null
+version: 2
