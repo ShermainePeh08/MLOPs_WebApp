@@ -40,7 +40,7 @@ def get_user_input():
     storey_range = st.selectbox("Storey Range", storey_ranges)
 
     # Floor Area
-    floor_area_sqm = st.number_input("Floor Area (sqm)", 100)
+    floor_area_sqm = st.number_input("Floor Area (sqm)", 100, step=10)
 
     # Flat Model
     flat_models = ['Improved', 'New Generation', 'Model A', 'Standard', 'Simplified', 'Premium Apartment', 'Maisonette', 'Apartment', 'Model A2', 'Type S1', 'Type S2', 'Adjoined flat', 'Terrace', 'DBSS', 'Model A-Maisonette', 'Premium Maisonette', 'Multi Generation', 'Premium Apartment Loft', 'Improved-Maisonette', '2-room', '3Gen']
@@ -54,8 +54,8 @@ def get_user_input():
     # longitude = st.number_input("Longitude", value=103.84, format="%.5f") 
 
     # CBD Distance and MRT Distance
-    cbd_dist = st.number_input("Distance from CBD (m)", 10000)
-    min_dist_mrt = st.number_input("Minimum Distance from MRT (m)", 10000)
+    cbd_dist = st.number_input("Distance from CBD (m)", 10000, step=1000)
+    min_dist_mrt = st.number_input("Minimum Distance from MRT (m)", 1000, step=100)
     
     user_input = {
         "street_name": street_name,
@@ -85,5 +85,5 @@ if __name__ == "__main__":
     with col3:
         prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
-        # st.write(prediction)
-        st.write('The predicted price of your HDB is: $', prediction, 'SGD')
+        st.markdown("<h1 style='color: green;'>🤑💸</h1>", unsafe_allow_html=True)
+        st.write('The predicted price of your HDB rounded to nearest thousands is: $', str(round(prediction, -3)))
