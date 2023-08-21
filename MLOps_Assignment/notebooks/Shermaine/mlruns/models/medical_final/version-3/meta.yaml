@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1692633421461
+current_stage: None
+description: null
+last_updated_timestamp: 1692633421461
+name: medical_final
+run_id: 0ad160c797d24d47872d6934d980602d
+run_link: null
+source: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/Shermaine/mlruns/203244662769533384/0ad160c797d24d47872d6934d980602d/artifacts/sk_model
+status: READY
+status_message: null
+user_id: null
+version: 3
