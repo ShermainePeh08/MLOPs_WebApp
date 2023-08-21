@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GitHub/MLOPs_WebApp/MLOps_Assignment/notebooks/RuiJie/mlruns/962509762797500726/7360038ceb014b0abb8b371b0f8c18f3/artifacts
+end_time: 1692622590800
+entry_point_name: ''
+experiment_id: '962509762797500726'
+lifecycle_stage: active
+run_id: 7360038ceb014b0abb8b371b0f8c18f3
+run_name: K Neighbors Regressor
+run_uuid: 7360038ceb014b0abb8b371b0f8c18f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692622590226
+status: 3
+tags: []
+user_id: Shermaine
