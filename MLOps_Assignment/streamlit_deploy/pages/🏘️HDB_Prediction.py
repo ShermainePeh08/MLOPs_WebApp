@@ -86,4 +86,4 @@ if __name__ == "__main__":
         prediction = predict_hdb(hdb_model, df)
         st.subheader('Predicted Output')
         st.markdown("<h1 style='color: green;'>🤑💸</h1>", unsafe_allow_html=True)
-        st.write('The predicted price of your HDB rounded to nearest thousands is: $', str(round(prediction, -3)))
+        st.write('The predicted price of your HDB rounded to nearest thousands is: $'+ str(round(prediction, -3)))
